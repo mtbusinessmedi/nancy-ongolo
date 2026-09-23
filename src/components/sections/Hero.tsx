@@ -19,9 +19,9 @@ export default function Hero() {
         <div className="absolute top-[40%] left-[10%] h-px w-[60%] bg-gradient-to-r from-transparent via-wine-light/50 to-transparent" />
       </div>
 
-      <div className="mx-auto grid max-w-7xl items-center gap-12 px-5 pt-10 pb-20 sm:px-8 lg:grid-cols-[1fr_1fr] lg:gap-10 lg:pt-12 lg:pb-28">
+      <div className="mx-auto grid max-w-7xl items-center gap-6 px-5 pt-10 pb-16 sm:px-8 lg:grid-cols-[1fr_1fr] lg:gap-10 lg:pt-12 lg:pb-28">
         {/* Texte */}
-        <div className="relative z-10 order-2 lg:order-1">
+        <div className="relative z-10">
           <div className="reveal is-visible inline-flex items-center gap-2.5 rounded-full border border-hairline bg-white/[0.03] py-2 pr-4 pl-2.5 text-[12px] font-semibold uppercase tracking-[0.2em] text-gold-light backdrop-blur">
             <span className="grid h-6 w-6 place-items-center rounded-full bg-gold text-ink">
               <Crown className="h-3.5 w-3.5" />
@@ -82,7 +82,7 @@ export default function Hero() {
         </div>
 
         {/* Visuel de la coach encadré */}
-        <div className="relative order-1 mx-auto w-full max-w-[600px] lg:order-2">
+        <div className="relative mx-auto w-full max-w-[600px]">
           <div className="relative aspect-square w-full">
             {/* Fondu bas : le cercle et la photo se fondent dans le fond */}
             <div className="absolute inset-0 [mask-image:linear-gradient(to_bottom,black_72%,transparent_98%)]">
